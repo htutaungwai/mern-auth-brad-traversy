@@ -11,8 +11,8 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import HomeScreen from "../screens/HomeScreen.jsx";
-import LoginScreen from "../screens/LoginScreen.jsx";
+import HomeScreen from "./screens/HomeScreen.jsx";
+import LoginScreen from "./screens/LoginScreen.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
